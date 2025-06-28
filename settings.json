@@ -1,0 +1,116 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "RetroWave",
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "Cascadia Mono",
+                "size": 11
+            },
+            "opacity": 80,
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#204DBE",
+            "brightBlack": "#808080",
+            "brightBlue": "#2F6AFF",
+            "brightCyan": "#00E1F0",
+            "brightGreen": "#58EA51",
+            "brightPurple": "#FC74FF",
+            "brightRed": "#FF3E30",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFC944",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#00A7B2",
+            "foreground": "#FFFFFF",
+            "green": "#3FAE3A",
+            "name": "Ottosson Light",
+            "purple": "#BB54BE",
+            "red": "#BE2C21",
+            "selectionBackground": "#92A4FD",
+            "white": "#BEBEBE",
+            "yellow": "#BE9A4A"
+        },
+        {
+            "background": "#0A0A0A",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FF3CAC",
+            "cyan": "#3A96DD",
+            "foreground": "#9D00FF",
+            "green": "#13A10E",
+            "name": "RetroWave",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#00FFF7",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        }
+    ],
+    "theme": "system",
+    "themes": []
+}
